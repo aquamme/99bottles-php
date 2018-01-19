@@ -57,7 +57,6 @@ VERSE;
 
   /** @test */
   public function t_0() {
-    $this->markTestSkipped();
 
     $expected = <<<VERSE
 No more bottles of beer on the wall, no more bottles of beer.
@@ -69,7 +68,6 @@ VERSE;
 
   /** @test */
   public function t_9998() {
-    $this->markTestSkipped();
 
     $expected = <<<VERSE
 99 bottles of beer on the wall, 99 bottles of beer.
@@ -84,7 +82,6 @@ VERSE;
 
   /** @test */
   public function t_20() {
-    $this->markTestSkipped();
 
     $expected = <<<VERSE
 2 bottles of beer on the wall, 2 bottles of beer.
@@ -102,7 +99,6 @@ VERSE;
 
   /** @test */
   public function t_whole() {
-    $this->markTestSkipped();
 
     $expected = <<<VERSE
 99 bottles of beer on the wall, 99 bottles of beer.
