@@ -1,6 +1,7 @@
 <?php namespace Tests;
 
 use PHPUnit\Framework\TestCase;
+use Src\Bottles;
 
 /*
  * 99 Bottles Test - PHP version.
@@ -23,7 +24,6 @@ VERSE;
 
   /** @test */
   public function t_89() {
-    $this->markTestSkipped();
 
     $expected = <<<VERSE
 89 bottles of beer on the wall, 89 bottles of beer.
@@ -35,7 +35,6 @@ VERSE;
 
   /** @test */
   public function t_2() {
-    $this->markTestSkipped();
 
     $expected = <<<VERSE
 2 bottles of beer on the wall, 2 bottles of beer.
@@ -47,7 +46,6 @@ VERSE;
 
   /** @test */
   public function t_1() {
-    $this->markTestSkipped();
 
     $expected = <<<VERSE
 1 bottle of beer on the wall, 1 bottle of beer.
