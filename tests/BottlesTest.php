@@ -1,6 +1,7 @@
 <?php namespace Tests;
 
 use PHPUnit\Framework\TestCase;
+use Src\Bottles;
 
 /*
  * 99 Bottles Test - PHP version.
